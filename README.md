@@ -16,7 +16,7 @@ docker --version
 aws ecr get-login-password --region us-east-2 | docker login --username AWS --password-stdin 881490110646.dkr.ecr.us-east-2.amazonaws.com
 ```
 for ubuntu
-
+'''
 sudo apt-get update -y
 sudo apt install -y docker.io
 sudo service docker start
